@@ -8,28 +8,28 @@ Mac下配置ubantu虚拟机，教程可以参考上文。
 
 快速入门:  http://hyperledger-fabric.readthedocs.io/en/release-1.1/getting_started.html
 
-###前提
+### 前提
 
-####安装git
+#### 安装git
 
 ```
 $ sudo apt update
 $ sudo apt install git
 ```
 
-####安装curl
+#### 安装curl
 
 ```
 $ sudo apt install curl
 ```
 
-####安装vim
+#### 安装vim
 
 ```
 $ sudo apt install vim
 ```
 
-###安装Docker
+### 安装Docker
 
 ```
 $ sudo apt update
@@ -37,7 +37,7 @@ $ docker --version
 $ sudo apt install docker.io
 ```
 
-####查看Docker版本信息
+#### 查看Docker版本信息
 
 version 1.12+
 
@@ -47,14 +47,14 @@ $ docker --version
 
 输出: `Docker version 1.13.1, build 092cba3`
 
-###安装Docker Compose
+### 安装Docker Compose
 
 ```
 $ docker-compose --version
 $ sudo apt install docker-compose
 ```
 
-####查看DockerCompose版本信息
+#### 查看DockerCompose版本信息
 
 ```
 $ docker-compose --version
@@ -62,7 +62,7 @@ $ docker-compose --version
 
 输出: `docker-compose version 1.8.0, build unknown`
 
-###Golang
+### Golang
 
 Fabric1.1.0版本要求Go1.9+
 
@@ -70,7 +70,7 @@ Fabric1.0.0版本要求Go1.7+
 
 上传go1.10.1.linux-amd64.tar.gz
 
-####解压文件
+#### 解压文件
 
 ```
 $ tar -zxvf go1.10.1.linux-amd64.tar.gz
@@ -82,7 +82,7 @@ tar -zxvf go1.10.1.linux-amd64.tar.gz -C /usr/local
 ```
 
 
-####编辑环境变量文件
+#### 编辑环境变量文件
 sudo vim /etc/profile
 ```
 $ vim .bashrc 
@@ -119,9 +119,9 @@ source /etc/profile
 
 
 
-###安装Node与npm
+### 安装Node与npm
 
-####安装nvm
+#### 安装nvm
 
 ```
 $ sudo apt update
@@ -131,13 +131,13 @@ $ export NVM_DIR="$HOME/.nvm"
 $ [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" 
 ```
 
-####安装Node
+#### 安装Node
 
 ```
 $ nvm install v8.11.1
 ```
 
-####检查Node版本
+#### 检查Node版本
 
 ```
 $ node -v
@@ -145,7 +145,7 @@ $ node -v
 
 输出:   `v8.11.1`
 
-####检查npm版本
+#### 检查npm版本
 
 ```
 $ npm -v
@@ -153,15 +153,15 @@ $ npm -v
 
 输出:   `5.6.0`
 
-###Hyperledger Fabric Samples 下载安装
+### Hyperledger Fabric Samples 下载安装
 
-####创建一个空目录
+#### 创建一个空目录
 
 ```
 $ mkdir hyfa
 ```
 
-####进入该目录
+#### 进入该目录
 
 ```
 $ cd hyfa
