@@ -1,7 +1,13 @@
+[TOC]
+
+
 # 3 hyperledger fabric 系统环境搭建
+
+
 ubantu环境下搭建fabric所需环境。
 Mac下配置ubantu虚拟机，教程可以参考上文。
 准备好ubantu系统后，开始进行环境搭建
+
 
 
 ## 环境搭建
