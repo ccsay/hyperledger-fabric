@@ -14,8 +14,5 @@ hyperledger fabric 学习笔记
 * [5 启动网络(自动)](https://github.com/cxytujie/hyperledger-fabric/blob/master/hyperledger-fabric/5%20%E5%90%AF%E5%8A%A8%E7%BD%91%E7%BB%9C(%E8%87%AA%E5%8A%A8).md)
 
 *******
-欢迎加入区块链技术交流群！
-* QQ群：810639301
-* ![区块链交流群-w200](http://p88vmzsqy.bkt.clouddn.com/%E5%85%94%E5%A7%90%E5%8C%BA%E5%9D%97%E9%93%BE%E4%BA%A4%E6%B5%81%E7%BE%A4)
 
 
